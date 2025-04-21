@@ -1,0 +1,21 @@
+- Geist
+- Fira Code
+- BlexMono
+- 3270
+- [The TeX Gyre Cursor](https://www.gust.org.pl/projects/e-foundry/tex-gyre)
+- Anonymous Pro
+- iA Writer Mono
+- InconsolataGo
+- Terminus (TTF)
+
+- Drafting* Mono
+- Fragment Mono
+- Indicate Mono
+- MD IO
+- Mensch
+- Monaspace Krypton
+- Monoflow
+- NotCourierSans
+- Office Code Pro
+- SK Modernist Mono
+- Spleen
