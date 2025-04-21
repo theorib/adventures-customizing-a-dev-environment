@@ -19,18 +19,21 @@ You can find different installation instructions on [Starship's website](https:/
 1. Install a [Nerd Font](https://www.nerdfonts.com) in your computer.
     I chose the [GeistMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/GeistMono.zip).
 
-2. Install Starship using homebrew:
+2. Setup your Terminal app and VS Code to use a Nerd Font (so they can display all the icons).
+...
+
+3. Install Starship using homebrew:
     ```bash
     brew install starship
     ```
 
-3. For ZSH, Add the following lines to the end of your `.zshrc` file. You should find your `.zshrc` file at the root of your current user folder (`~/.zshrc`).
+4. For ZSH, Add the following lines to the end of your `.zshrc` file. You should find your `.zshrc` file at the root of your current user folder (`~/.zshrc`).
     ```bash
     # Activate Starship
     eval "$(starship init zsh)"
     ```
     
-4. Restart your terminal session or `source` your `.zshrc` file to activate the changes.
+5. Restart your terminal session or `source` your `.zshrc` file to activate the changes.
     ```bash
     source ~/.zshrc
     ```
@@ -56,6 +59,9 @@ starship preset gruvbox-rainbow -o ~/.config/starship.toml
  - I wanted an icon to reflect which Shell environment I was currently in if switching from ZSH to Bash or Fish.
 
  I achieved all of these following the steps below.
+
+ **Note: you may not be able to preview the icons contained in the code below if you see them on GitHub or most markdown editors.**
+You may instead see an empty space or a generic square icon in their place, however, when you copy and paste the code to your Starship configuration file the icons should be copied and work correctly provided you installed and configured a Nerd Font to work with your terminal.
 
 #### Customizing the `[python]` settings to display the current active python Virtual Environment (venv)
 This was achieved by adding `( $virtualenv )` next to the `$version` variable in the `format` property.
