@@ -16,17 +16,21 @@ I chose to Install most of my development packages using [Homebrew](https://brew
 
 You can find different installation instructions on [Starship's website](https://starship.rs) if you have different needs but this is the quick and easy way on a Mac:
 
-1. Install Starship using homebrew:
+1. Install a [Nerd Font](https://www.nerdfonts.com) in your computer.
+    I chose the [GeistMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/GeistMono.zip).
+
+2. Install Starship using homebrew:
     ```bash
     brew install starship
     ```
 
-2. For ZSH, Add the following lines to the end of your `.zshrc` file. You should find your `.zshrc` file at the root of your current user folder (`~/.zshrc`).
+3. For ZSH, Add the following lines to the end of your `.zshrc` file. You should find your `.zshrc` file at the root of your current user folder (`~/.zshrc`).
     ```bash
     # Activate Starship
     eval "$(starship init zsh)"
     ```
-3. Restart your terminal session or `source` your `.zshrc` file to activate the changes.
+    
+4. Restart your terminal session or `source` your `.zshrc` file to activate the changes.
     ```bash
     source ~/.zshrc
     ```
